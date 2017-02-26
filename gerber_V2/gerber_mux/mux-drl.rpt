@@ -1,0 +1,23 @@
+Drill report for /media/bada/5678C86678C84709/PROJETO/Layout/COMPONENTSS/kicad/PROJETO/MUX/mux.kicad_pcb
+Created on Qua 18 Mai 2016 07:41:14 BRT
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'mux.drl' contains
+    plated through holes:
+    =============================================================
+    T1  1,00mm  0,039"  (4 holes)
+    T2  1,00mm  0,039"  (21 holes)
+
+    Total plated holes count 25
+
+
+Drill file 'mux-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

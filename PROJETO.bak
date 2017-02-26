@@ -1,0 +1,169 @@
+EESchema Schematic File Version 2
+LIBS:PROJETO-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:BIBLIOTECA
+LIBS:rf_receiver
+LIBS:PROJETO-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X02 P1
+U 1 1 56B25DE1
+P 5035 3875
+F 0 "P1" H 5035 3700 50  0000 C CNN
+F 1 "CONN_01X02" H 5360 3875 50  0000 C CNN
+F 2 "rf_receiver:sma_conn_3011_klc" H 5035 3875 50  0001 C CNN
+F 3 "" H 5035 3875 50  0000 C CNN
+	1    5035 3875
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5535 3625 5535 3925
+Wire Wire Line
+	5535 3625 5710 3625
+$Comp
+L GND #PWR01
+U 1 1 56B25F49
+P 5335 3600
+F 0 "#PWR01" H 5335 3350 50  0001 C CNN
+F 1 "GND" H 5343 3426 50  0000 C CNN
+F 2 "" H 5335 3600 50  0000 C CNN
+F 3 "" H 5335 3600 50  0000 C CNN
+	1    5335 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 56B25F7E
+P 5635 4325
+F 0 "#PWR02" H 5635 4075 50  0001 C CNN
+F 1 "GND" H 5643 4151 50  0000 C CNN
+F 2 "" H 5635 4325 50  0000 C CNN
+F 3 "" H 5635 4325 50  0000 C CNN
+	1    5635 4325
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 56B25FA6
+P 6535 3475
+F 0 "#PWR03" H 6535 3225 50  0001 C CNN
+F 1 "GND" H 6543 3301 50  0000 C CNN
+F 2 "" H 6535 3475 50  0000 C CNN
+F 3 "" H 6535 3475 50  0000 C CNN
+	1    6535 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P2
+U 1 1 56B25FC7
+P 6655 4120
+F 0 "P2" H 6732 4158 50  0000 L CNN
+F 1 "CONN_01X02" H 6732 4066 50  0000 L CNN
+F 2 "rf_receiver:sma_conn_3011_klc" H 6655 4120 50  0001 C CNN
+F 3 "" H 6655 4120 50  0000 C CNN
+	1    6655 4120
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6535 3425 6535 3475
+$Comp
+L GND #PWR04
+U 1 1 56B260F1
+P 6365 4175
+F 0 "#PWR04" H 6365 3925 50  0001 C CNN
+F 1 "GND" H 6373 4001 50  0000 C CNN
+F 2 "" H 6365 4175 50  0000 C CNN
+F 3 "" H 6365 4175 50  0000 C CNN
+	1    6365 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5535 3925 5235 3925
+Connection ~ 6310 3425
+Wire Wire Line
+	5635 3770 5635 4325
+Wire Wire Line
+	5335 3600 5335 3825
+Wire Wire Line
+	5335 3825 5235 3825
+$Comp
+L FILTRO1 U?
+U 1 1 56D1F57F
+P 5930 3825
+F 0 "U?" V 5467 3825 60  0000 C CNN
+F 1 "FILTRO1" V 5573 3825 60  0000 C CNN
+F 2 "" H 5930 3825 60  0000 C CNN
+F 3 "" H 5930 3825 60  0000 C CNN
+	1    5930 3825
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5635 3770 5710 3770
+Wire Wire Line
+	5710 3920 5635 3920
+Connection ~ 5635 3920
+Wire Wire Line
+	5710 4070 5635 4070
+Connection ~ 5635 4070
+Wire Wire Line
+	6455 4070 6150 4070
+Wire Wire Line
+	6455 4170 6365 4170
+Wire Wire Line
+	6365 4170 6365 4175
+Wire Wire Line
+	6150 3920 6180 3920
+Wire Wire Line
+	6180 3920 6180 3615
+Wire Wire Line
+	6150 3615 6310 3615
+Connection ~ 6180 3615
+Wire Wire Line
+	6150 3775 6180 3775
+Connection ~ 6180 3775
+Wire Wire Line
+	6310 3615 6310 3425
+Wire Wire Line
+	6310 3425 6535 3425
+$EndSCHEMATC
