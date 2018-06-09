@@ -1,8 +1,8 @@
 # S-Band-Transmitter-Project
 
-The project contains the validation PCBs for each transmitter component, and are developed with KICAD software.
+The project contains the validation PCBs for each transmitter component, developed with KICAD software.
 
-The full documentation are on the file "S-Band Transmitter.pdf"
+See the file "S-Band Transmitter.pdf" for full documentation.
 
 
 What are on this repository:
